@@ -14,10 +14,8 @@ class GUIDesign:
         pygame.font.init()
         pygame.display.set_caption("Connect Four (Python Edition)")  # Adding a caption
         self._screen = pygame.display.set_mode((800, 800))  # Setting the size of the board
-        self._board_image = pygame.image.load(
-            r"D:\FP\a11-911AstalusAdrian\images\board.png")  # The path of where your image is stored
-        self._board_image_numbers = pygame.image.load(
-            r"D:\FP\a11-911AstalusAdrian\images\board_numbers.png")  # The path of where your image is stored
+        self._board_image = pygame.image.load(r"")  # The path of where your image is stored
+        self._board_image_numbers = pygame.image.load(r"")  # The path of where your image is stored
         self._font = pygame.font.SysFont('Calibri', 26)
         self.initialise_screen(player)
 
